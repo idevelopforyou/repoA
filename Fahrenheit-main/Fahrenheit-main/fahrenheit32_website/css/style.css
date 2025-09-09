@@ -1,0 +1,112 @@
+/* police d'écriture */
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* root */
+/* --main-bg-color: #370157; */
+/* deep violet*/
+/* --main-font: #c5fba5; */
+/*menthol*/
+/* --electric-indigo: #5c00ff; */
+/* --clear-day: #e7ffff; */
+/* --bright-red: #ff000b; */
+/* --dark-mint-green: #07c170; */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+/* webkit */
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e7ffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #07c170;
+}
+
+/* Styles for the navbar */
+nav {
+  background-color: #370157;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 16px; */
+}
+
+nav img {
+  height: 50px;
+}
+
+nav a {
+  font-family: "Lobster Two", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #c5fba5;
+  margin: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+/* Styles for the section */
+/* section, nav {
+  background-image: url(/assets/image/large_annie-spratt-d8FjB1_8xHQ-unsplash.jpg); 
+}  */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-image: url(/assets/image/Laptop\ in\ the\ dark.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 1rem;
+
+}
+
+section h1 {
+  font-family: "Lobster Two", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 48px;
+  /* background-color: #370157; */
+  color: #c5fba5;
+  /* padding: 50px 8px 50px 32px;
+  margin-bottom: 130px; */
+}
+
+section p {
+  font-size: 24px;
+  /* padding: 50px 24px 50px 24px; */
+  /* margin-bottom: 32px; */
+  color: #00ff95;
+}
+
+/* .hero_one {
+  padding: 50px;
+} */
+
+.cta-btn {
+  background-color: #370157;
+  border-bottom: dotted;
+  border-radius: 8px;
+  color: #c5fba5;
+  font-size: 32px;
+  font-family: "Lobster Two", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 100px;
+  /* margin-right: 0px; */
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
